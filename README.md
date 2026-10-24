@@ -2,7 +2,7 @@
 
 A farmer takes or uploads a leaf photo. A computer-vision model **running fully inside the phone's browser** (no server, works offline) names the likely disease in **Bangla + English**, shows confidence, the cause and 4 simple tips. Built for the Craft N Code West Bengal hackathon (AgriTech track).
 
-**Live demo:** https://melodious-moxie-41dcf7.netlify.app  (works offline after the first load)
+**Live demo:** https://krishi-daktar-syatem.netlify.app/  (works offline after the first load)
 
 ## Problem
 Small farmers in West Bengal often notice crop disease late and cannot reach an agriculture officer quickly. Wrong or delayed treatment costs yield. Many have poor internet and prefer Bangla.
@@ -21,7 +21,7 @@ Small farmers in West Bengal often notice crop disease late and cannot reach an 
 | Hybrid online AI (optional) | Offline: the on-device model above (potato, tomato, rice). Online: the photo is also sent to our own Netlify Function `/api/diagnose`, which asks a vision AI (Google Gemini). It knows many more crops and diseases (and rice leaf blast / healthy rice) and writes simple Bangla advice. If both agree the app shows "verified"; if they differ it shows the more confident one plus a warning and the other answer. Any online failure silently falls back to the on-device result. The user can switch the online check off. Needs the environment variable `GEMINI_API_KEY` in Netlify (never in the page). |
 | Safety | Below **70%** confidence the app says "I am not sure" and sends the farmer to the agriculture officer (Krishi Bibhag). Top-2 predictions are always shown. Disclaimer always visible. |
 
-Classes: potato (early blight, late blight, healthy); tomato (bacterial spot, early blight, late blight, leaf mold, Septoria leaf spot, spider mites, target spot, mosaic virus, yellow leaf curl virus, healthy); rice (bacterial leaf blight, brown spot, leaf smut).
+Classes: potato (early blight, late blight, healthy); tomato (bacterial spot, early blight, late blight, leaf mold, Septoria leaf spot, spider mites, target spot, mosaic virus, yellow leaf curl virus, healthy); rice (bacterial leaf blight, brown spot, leaf smut); sugarcane (mosaic, red rot, rust, yellow leaf, healthy).
 
 ### Online AI setup
 Netlify -> Site configuration -> Environment variables -> add `GEMINI_API_KEY` from https://aistudio.google.com/apikey (and optionally `GEMINI_MODEL`, default `gemini-2.5-flash`), set a spend limit on the key, then redeploy. Photos are sent only when online and the switch is on.
