@@ -1,0 +1,530 @@
+{
+  "disclaimer": {
+    "bn": "এটি শুধু সাধারণ পরামর্শ, বিশেষজ্ঞের রোগ নির্ণয় নয়। ওষুধ বা সার দেওয়ার আগে স্থানীয় কৃষি অফিসার (কৃষি বিভাগ) বা কৃষি উপসহকারী কর্মকর্তার পরামর্শ নিন।",
+    "en": "This gives general guidance only, not a professional diagnosis. Before using any pesticide or fertilizer, consult your local agriculture officer (Krishi Bibhag)."
+  },
+  "crops": {
+    "potato": {
+      "bn": "আলু",
+      "en": "Potato"
+    },
+    "tomato": {
+      "bn": "টমেটো",
+      "en": "Tomato"
+    },
+    "rice": {
+      "bn": "ধান",
+      "en": "Rice"
+    },
+    "sugarcane": {
+      "bn": "আখ",
+      "en": "Sugarcane"
+    }
+  },
+  "diseases": {
+    "potato_healthy": {
+      "name": {
+        "bn": "সুস্থ পাতা",
+        "en": "Healthy"
+      },
+      "cause": {
+        "bn": "পাতায় কোনো রোগের লক্ষণ পাওয়া যায়নি।",
+        "en": "No sign of disease found on the leaf."
+      },
+      "tips": {
+        "bn": [
+          "নিয়মিত খেত দেখুন, নতুন দাগ দেখলে আবার ছবি তুলুন।",
+          "জমিতে পানি জমতে দেবেন না।",
+          "সুষম সার দিন, বেশি ইউরিয়া দেবেন না।",
+          "রোগমুক্ত বীজ আলু ব্যবহার করুন।"
+        ],
+        "en": [
+          "Check the field regularly and re-scan if new spots appear.",
+          "Do not let water stand in the field.",
+          "Use balanced fertilizer; avoid too much urea.",
+          "Use disease-free seed potatoes."
+        ]
+      }
+    },
+    "potato_early_blight": {
+      "name": {
+        "bn": "আলুর আগাম ধসা (আর্লি ব্লাইট)",
+        "en": "Potato Early Blight"
+      },
+      "cause": {
+        "bn": "ছত্রাকের কারণে হয়। পুরোনো পাতায় বাদামি গোল দাগ পড়ে, দাগের ভেতরে চক্রের মতো রেখা থাকে। গরম ও আর্দ্র আবহাওয়ায় বাড়ে।",
+        "en": "Caused by a fungus. Brown round spots with ring-like marks appear first on older leaves. Spreads in warm, humid weather."
+      },
+      "tips": {
+        "bn": [
+          "আক্রান্ত পাতা তুলে পুড়িয়ে বা মাটিতে পুঁতে ফেলুন।",
+          "একই জমিতে বারবার আলু চাষ করবেন না, ফসলের পালা বদল করুন।",
+          "গাছের গোড়ায় সুষম সার দিন, গাছ দুর্বল হলে রোগ বেশি হয়।",
+          "রোগ বাড়লে কৃষি কর্মকর্তার পরামর্শ নিয়ে অনুমোদিত ছত্রাকনাশক ব্যবহার করুন।"
+        ],
+        "en": [
+          "Remove affected leaves and burn or bury them.",
+          "Rotate crops; do not grow potato in the same field every year.",
+          "Feed the plants well; weak plants get sick more easily.",
+          "If it spreads, use an approved fungicide on the advice of an agriculture officer."
+        ]
+      }
+    },
+    "potato_late_blight": {
+      "name": {
+        "bn": "আলুর নাবি ধসা (লেট ব্লাইট)",
+        "en": "Potato Late Blight"
+      },
+      "cause": {
+        "bn": "ছত্রাকের মতো জীবাণুর কারণে হয়। মেঘলা, ঠান্ডা ও ভেজা আবহাওয়ায় খুব দ্রুত ছড়ায়। পাতায় পানি-ভেজা কালচে দাগ পড়ে, কয়েক দিনে পুরো খেত নষ্ট হতে পারে।",
+        "en": "Caused by a fungus-like organism. Spreads very fast in cloudy, cool, wet weather. Water-soaked dark patches appear; a whole field can be lost in days."
+      },
+      "tips": {
+        "bn": [
+          "দ্রুত ব্যবস্থা নিন, দেরি করলে খেত নষ্ট হতে পারে। আজই কৃষি অফিসারকে জানান।",
+          "আক্রান্ত গাছ তুলে দূরে পুড়িয়ে ফেলুন, সুস্থ গাছের পাশে ফেলবেন না।",
+          "মেঘলা ও কুয়াশার দিনে খেত ঘন ঘন দেখুন।",
+          "কৃষি কর্মকর্তার পরামর্শে অনুমোদিত ছত্রাকনাশক সঠিক মাত্রায় স্প্রে করুন।"
+        ],
+        "en": [
+          "Act quickly; delay can destroy the field. Inform the agriculture officer today.",
+          "Uproot infected plants and burn them away from healthy ones.",
+          "Check the field often on cloudy and foggy days.",
+          "Spray an approved fungicide in the right dose as advised by the officer."
+        ]
+      }
+    },
+    "tomato_healthy": {
+      "name": {
+        "bn": "সুস্থ পাতা",
+        "en": "Healthy"
+      },
+      "cause": {
+        "bn": "পাতায় কোনো রোগের লক্ষণ পাওয়া যায়নি।",
+        "en": "No sign of disease found on the leaf."
+      },
+      "tips": {
+        "bn": [
+          "নিয়মিত পাতা ও ফল দেখুন।",
+          "গাছের গোড়ায় পানি দিন, পাতা ভিজাবেন না।",
+          "গাছের মাঝে ফাঁক রাখুন যাতে বাতাস চলাচল করে।",
+          "খেত আগাছামুক্ত রাখুন।"
+        ],
+        "en": [
+          "Check leaves and fruits regularly.",
+          "Water at the base; do not wet the leaves.",
+          "Keep space between plants for air to move.",
+          "Keep the field free of weeds."
+        ]
+      }
+    },
+    "tomato_bacterial_spot": {
+      "name": {
+        "bn": "টমেটোর ব্যাকটেরিয়াল দাগ রোগ",
+        "en": "Tomato Bacterial Spot"
+      },
+      "cause": {
+        "bn": "ব্যাকটেরিয়ার কারণে হয়। পাতায় ছোট কালচে দাগ পড়ে, ফলেও দাগ হয়। বৃষ্টি ও সেচের পানির ছিটায় ছড়ায়।",
+        "en": "Caused by bacteria. Small dark spots on leaves and fruit. Spreads through splashing rain and irrigation water."
+      },
+      "tips": {
+        "bn": [
+          "আক্রান্ত পাতা ও ফল তুলে ফেলুন।",
+          "ভেজা পাতায় খেতে কাজ করবেন না, হাত ও যন্ত্র পরিষ্কার রাখুন।",
+          "উপর থেকে পানি না দিয়ে গোড়ায় সেচ দিন।",
+          "কৃষি কর্মকর্তার পরামর্শ নিয়ে অনুমোদিত ওষুধ ব্যবহার করুন; পরের বার রোগমুক্ত বীজ নিন।"
+        ],
+        "en": [
+          "Remove affected leaves and fruits.",
+          "Do not work in the field when leaves are wet; keep hands and tools clean.",
+          "Water at the base instead of from above.",
+          "Use approved sprays on an officer's advice; use disease-free seed next season."
+        ]
+      }
+    },
+    "tomato_early_blight": {
+      "name": {
+        "bn": "টমেটোর আগাম ধসা (আর্লি ব্লাইট)",
+        "en": "Tomato Early Blight"
+      },
+      "cause": {
+        "bn": "ছত্রাকের কারণে হয়। নিচের পুরোনো পাতায় চক্রের মতো বাদামি দাগ পড়ে, পরে পাতা হলুদ হয়ে ঝরে যায়।",
+        "en": "Caused by a fungus. Brown spots with ring marks on lower, older leaves; leaves later turn yellow and fall."
+      },
+      "tips": {
+        "bn": [
+          "নিচের আক্রান্ত পাতা কেটে সরিয়ে ফেলুন।",
+          "গাছে খুঁটি দিন যাতে পাতা মাটি না ছোঁয়।",
+          "ফসলের পালা বদল করুন।",
+          "রোগ বাড়লে কৃষি কর্মকর্তার পরামর্শে ছত্রাকনাশক দিন।"
+        ],
+        "en": [
+          "Cut off and remove the affected lower leaves.",
+          "Stake the plants so leaves do not touch the soil.",
+          "Rotate crops.",
+          "If it spreads, use a fungicide on the officer's advice."
+        ]
+      }
+    },
+    "tomato_late_blight": {
+      "name": {
+        "bn": "টমেটোর নাবি ধসা (লেট ব্লাইট)",
+        "en": "Tomato Late Blight"
+      },
+      "cause": {
+        "bn": "ছত্রাকের মতো জীবাণুর কারণে হয়। ঠান্ডা, কুয়াশা ও ভেজা আবহাওয়ায় দ্রুত ছড়ায়। পাতা ও ফলে পানি-ভেজা কালচে দাগ পড়ে।",
+        "en": "Caused by a fungus-like organism. Spreads fast in cool, foggy, wet weather. Water-soaked dark patches on leaves and fruit."
+      },
+      "tips": {
+        "bn": [
+          "দ্রুত কৃষি অফিসারকে জানান, রোগ খুব দ্রুত ছড়ায়।",
+          "আক্রান্ত গাছ তুলে দূরে পুড়িয়ে ফেলুন।",
+          "গাছের ফাঁকা জায়গা রাখুন, পাতা যেন ভেজা না থাকে।",
+          "অনুমোদিত ছত্রাকনাশক কৃষি কর্মকর্তার পরামর্শে ব্যবহার করুন।"
+        ],
+        "en": [
+          "Tell the agriculture officer quickly; it spreads very fast.",
+          "Uproot infected plants and burn them away from the field.",
+          "Keep space between plants and avoid wet leaves.",
+          "Use an approved fungicide on the officer's advice."
+        ]
+      }
+    },
+    "tomato_leaf_mold": {
+      "name": {
+        "bn": "টমেটোর পাতার ছাতা রোগ (লিফ মোল্ড)",
+        "en": "Tomato Leaf Mold"
+      },
+      "cause": {
+        "bn": "ছত্রাকের কারণে হয়। পাতার উপরে হলদে দাগ, নিচে সবুজাভ-ধূসর ছাতার মতো আস্তরণ পড়ে। বেশি আর্দ্রতা ও বদ্ধ জায়গায় হয়।",
+        "en": "Caused by a fungus. Yellow spots on top of the leaf and grey-green mold underneath. Occurs in high humidity and poor airflow."
+      },
+      "tips": {
+        "bn": [
+          "গাছের মাঝে বেশি ফাঁক রাখুন, বাতাস চলাচল বাড়ান।",
+          "আক্রান্ত পাতা তুলে ফেলুন।",
+          "পাতা ভিজিয়ে সেচ দেবেন না।",
+          "কৃষি কর্মকর্তার পরামর্শ নিয়ে অনুমোদিত ছত্রাকনাশক দিন।"
+        ],
+        "en": [
+          "Give plants more space and improve airflow.",
+          "Remove affected leaves.",
+          "Do not wet the leaves when watering.",
+          "Use an approved fungicide on the officer's advice."
+        ]
+      }
+    },
+    "tomato_septoria_leaf_spot": {
+      "name": {
+        "bn": "টমেটোর সেপটোরিয়া পাতার দাগ রোগ",
+        "en": "Tomato Septoria Leaf Spot"
+      },
+      "cause": {
+        "bn": "ছত্রাকের কারণে হয়। পাতায় অনেক ছোট গোল দাগ পড়ে, দাগের মাঝখান ধূসর ও কিনারা গাঢ়। নিচের পাতা থেকে শুরু হয়।",
+        "en": "Caused by a fungus. Many small round spots with grey centres and dark edges, starting on lower leaves."
+      },
+      "tips": {
+        "bn": [
+          "আক্রান্ত নিচের পাতা তুলে ফেলুন।",
+          "খেতের আগাছা ও আগের ফসলের অবশিষ্ট সাফ করুন।",
+          "গোড়ায় সেচ দিন, উপর থেকে নয়।",
+          "ছড়ালে কৃষি কর্মকর্তার পরামর্শে ছত্রাকনাশক ব্যবহার করুন।"
+        ],
+        "en": [
+          "Remove affected lower leaves.",
+          "Clear weeds and old crop residue from the field.",
+          "Water at the base, not from above.",
+          "If it spreads, use a fungicide on the officer's advice."
+        ]
+      }
+    },
+    "tomato_spider_mites": {
+      "name": {
+        "bn": "টমেটোর লাল মাকড় (স্পাইডার মাইট)",
+        "en": "Tomato Spider Mites"
+      },
+      "cause": {
+        "bn": "ছোট পোকা (মাকড়) পাতার রস চুষে খায়। পাতায় ছোট হলদে ফোঁটা পড়ে, পরে পাতা বাদামি হয়ে শুকায়। গরম ও শুকনো আবহাওয়ায় বাড়ে।",
+        "en": "Tiny mites suck leaf sap. Small yellow dots appear, then leaves turn brown and dry. Increases in hot, dry weather."
+      },
+      "tips": {
+        "bn": [
+          "পাতার নিচে ভালো করে দেখুন, সূক্ষ্ম জালের মতো আছে কি না।",
+          "পানির ঝাপটা দিয়ে মাকড় কমানো যায়।",
+          "বেশি আক্রান্ত পাতা তুলে ফেলুন।",
+          "কৃষি কর্মকর্তার পরামর্শে অনুমোদিত মাকড়নাশক ব্যবহার করুন।"
+        ],
+        "en": [
+          "Check the underside of leaves for fine webbing.",
+          "A strong spray of water can reduce mites.",
+          "Remove heavily affected leaves.",
+          "Use an approved miticide on the officer's advice."
+        ]
+      }
+    },
+    "tomato_target_spot": {
+      "name": {
+        "bn": "টমেটোর টার্গেট স্পট (চক্র দাগ রোগ)",
+        "en": "Tomato Target Spot"
+      },
+      "cause": {
+        "bn": "ছত্রাকের কারণে হয়। পাতায় বাদামি দাগ পড়ে, দাগে লক্ষ্যভেদের বৃত্তের মতো চক্র দেখা যায়। উষ্ণ ও ভেজা আবহাওয়ায় বাড়ে।",
+        "en": "Caused by a fungus. Brown spots with target-like rings on leaves. Grows in warm, wet weather."
+      },
+      "tips": {
+        "bn": [
+          "আক্রান্ত পাতা তুলে সরিয়ে ফেলুন।",
+          "গাছের ফাঁক রাখুন যাতে পাতা তাড়াতাড়ি শুকায়।",
+          "খেত পরিষ্কার রাখুন, ফসলের পালা বদল করুন।",
+          "কৃষি কর্মকর্তার পরামর্শে ছত্রাকনাশক ব্যবহার করুন।"
+        ],
+        "en": [
+          "Remove affected leaves.",
+          "Space plants so leaves dry quickly.",
+          "Keep the field clean and rotate crops.",
+          "Use a fungicide on the officer's advice."
+        ]
+      }
+    },
+    "tomato_mosaic_virus": {
+      "name": {
+        "bn": "টমেটোর মোজাইক ভাইরাস",
+        "en": "Tomato Mosaic Virus"
+      },
+      "cause": {
+        "bn": "ভাইরাসের কারণে হয়। পাতায় হালকা ও গাঢ় সবুজ ছোপ ছোপ দাগ পড়ে, পাতা কুঁচকে যায়। হাত, যন্ত্র ও ছোঁয়া থেকে ছড়ায়।",
+        "en": "Caused by a virus. Light and dark green mottling and curled leaves. Spreads by hands, tools and contact."
+      },
+      "tips": {
+        "bn": [
+          "আক্রান্ত গাছ তুলে পুড়িয়ে ফেলুন, ভাইরাসের ওষুধ নেই।",
+          "গাছ ধরার আগে হাত সাবান দিয়ে ধুয়ে নিন।",
+          "যন্ত্রপাতি পরিষ্কার রাখুন।",
+          "পরের বার রোগমুক্ত বীজ বা সহনশীল জাত নিন।"
+        ],
+        "en": [
+          "Uproot and burn infected plants; there is no cure for viruses.",
+          "Wash hands with soap before touching plants.",
+          "Keep tools clean.",
+          "Next season use disease-free seed or a resistant variety."
+        ]
+      }
+    },
+    "tomato_yellow_leaf_curl_virus": {
+      "name": {
+        "bn": "টমেটোর পাতা কোঁকড়ানো হলুদ ভাইরাস",
+        "en": "Tomato Yellow Leaf Curl Virus"
+      },
+      "cause": {
+        "bn": "ভাইরাসের কারণে হয়, সাদা মাছি (হোয়াইটফ্লাই) ছড়ায়। পাতা হলদে হয়ে উপরের দিকে কুঁকড়ে যায়, গাছ ছোট থাকে, ফল কম ধরে।",
+        "en": "Caused by a virus carried by whiteflies. Leaves turn yellow and curl upward, plants stay small and give little fruit."
+      },
+      "tips": {
+        "bn": [
+          "সাদা মাছি কমাতে হলুদ আঠালো ফাঁদ লাগান।",
+          "আক্রান্ত গাছ তুলে ফেলুন, ভাইরাসের ওষুধ নেই।",
+          "চারা নেটের ঘরে বা জাল দিয়ে ঢেকে বড় করুন।",
+          "কৃষি কর্মকর্তার পরামর্শে সাদা মাছির জন্য অনুমোদিত কীটনাশক ব্যবহার করুন।"
+        ],
+        "en": [
+          "Put up yellow sticky traps to reduce whiteflies.",
+          "Remove infected plants; viruses cannot be cured.",
+          "Raise seedlings under a net.",
+          "Use an approved insecticide for whiteflies on the officer's advice."
+        ]
+      }
+    },
+    "rice_bacterial_leaf_blight": {
+      "name": {
+        "bn": "ধানের ব্যাকটেরিয়াল পাতা ধসা (বিএলবি)",
+        "en": "Rice Bacterial Leaf Blight"
+      },
+      "cause": {
+        "bn": "ব্যাকটেরিয়ার কারণে হয়। পাতার কিনারা থেকে হলদে-সাদাটে লম্বা দাগ নিচের দিকে নামে, পাতা শুকিয়ে যায়। ঝড়-বৃষ্টি ও বেশি ইউরিয়ায় বাড়ে।",
+        "en": "Caused by bacteria. Yellow-white stripes run down from the leaf edges and the leaf dries. Increases with storms, rain and excess urea."
+      },
+      "tips": {
+        "bn": [
+          "বেশি ইউরিয়া দেবেন না, পটাশ সার ঠিকমতো দিন।",
+          "খেতের পানি কিছুদিন বের করে দিন।",
+          "রোগমুক্ত বীজ ও সহনশীল জাত ব্যবহার করুন।",
+          "আক্রান্ত হলে কৃষি কর্মকর্তার পরামর্শ নিন।"
+        ],
+        "en": [
+          "Avoid too much urea; apply potash properly.",
+          "Drain the field water for a few days.",
+          "Use disease-free seed and resistant varieties.",
+          "If affected, consult the agriculture officer."
+        ]
+      }
+    },
+    "rice_brown_spot": {
+      "name": {
+        "bn": "ধানের বাদামি দাগ রোগ",
+        "en": "Rice Brown Spot"
+      },
+      "cause": {
+        "bn": "ছত্রাকের কারণে হয়। পাতায় ডিম্বাকার বাদামি দাগ পড়ে। মাটিতে সার বা পুষ্টির অভাব থাকলে এবং খরায় বেশি হয়।",
+        "en": "Caused by a fungus. Oval brown spots on leaves. More common when soil is low in nutrients or in drought."
+      },
+      "tips": {
+        "bn": [
+          "জমিতে সুষম সার দিন, বিশেষ করে পটাশ।",
+          "সময়মতো সেচ দিন, জমি যেন শুকিয়ে না যায়।",
+          "ভালো ও রোগমুক্ত বীজ ব্যবহার করুন।",
+          "রোগ বাড়লে কৃষি কর্মকর্তার পরামর্শে ছত্রাকনাশক ব্যবহার করুন।"
+        ],
+        "en": [
+          "Apply balanced fertilizer, especially potash.",
+          "Irrigate on time; do not let the field dry out.",
+          "Use good, disease-free seed.",
+          "If it spreads, use a fungicide on the officer's advice."
+        ]
+      }
+    },
+    "rice_leaf_smut": {
+      "name": {
+        "bn": "ধানের পাতার কালো দাগ (লিফ স্মাট)",
+        "en": "Rice Leaf Smut"
+      },
+      "cause": {
+        "bn": "ছত্রাকের কারণে হয়। পাতায় ছোট ছোট কালচে কোণাকার দাগ পড়ে। সাধারণত বেশি নাইট্রোজেন সারে ও ভেজা আবহাওয়ায় হয়। ক্ষতি সাধারণত কম।",
+        "en": "Caused by a fungus. Small dark angular spots on leaves, usually with excess nitrogen and wet weather. Damage is usually mild."
+      },
+      "tips": {
+        "bn": [
+          "বেশি ইউরিয়া দেবেন না।",
+          "খেত আগাছামুক্ত রাখুন।",
+          "আক্রান্ত খড় ও অবশিষ্ট সরিয়ে ফেলুন।",
+          "বেশি ছড়ালে কৃষি কর্মকর্তার পরামর্শ নিন।"
+        ],
+        "en": [
+          "Avoid too much urea.",
+          "Keep the field free of weeds.",
+          "Remove infected straw and residue.",
+          "If widespread, consult the agriculture officer."
+        ]
+      }
+    },
+    "sugarcane_healthy": {
+      "name": {
+        "bn": "সুস্থ পাতা",
+        "en": "Healthy"
+      },
+      "cause": {
+        "bn": "পাতায় কোনো রোগের লক্ষণ পাওয়া যায়নি।",
+        "en": "No sign of disease found on the leaf."
+      },
+      "tips": {
+        "bn": [
+          "নিয়মিত খেত দেখুন, নতুন দাগ দেখলে আবার ছবি তুলুন।",
+          "রোগমুক্ত সেট (কাটিং) দিয়ে চাষ করুন।",
+          "সুষম সার দিন, বেশি ইউরিয়া নয়।",
+          "জমিতে পানি জমতে দেবেন না।"
+        ],
+        "en": [
+          "Check the field regularly and re-scan if new spots appear.",
+          "Plant disease-free setts (cuttings).",
+          "Use balanced fertilizer; avoid too much urea.",
+          "Do not let water stand in the field."
+        ]
+      }
+    },
+    "sugarcane_mosaic": {
+      "name": {
+        "bn": "আখের মোজাইক ভাইরাস",
+        "en": "Sugarcane Mosaic Virus"
+      },
+      "cause": {
+        "bn": "ভাইরাসের কারণে হয়, জাব পোকা ছড়ায়। পাতায় হালকা ও গাঢ় সবুজ ছোপ ছোপ দাগ পড়ে, গাছ খর্বাকার হয়।",
+        "en": "Caused by a virus spread by aphids. Light and dark green mottling on leaves; plants stay stunted."
+      },
+      "tips": {
+        "bn": [
+          "আক্রান্ত ঝাড় তুলে পুড়িয়ে ফেলুন, ভাইরাসের ওষুধ নেই।",
+          "রোগমুক্ত খেত থেকে সেট (কাটিং) নিন।",
+          "জাব পোকা বেশি হলে কৃষি কর্মকর্তার পরামর্শে অনুমোদিত কীটনাশক দিন।",
+          "সহনশীল জাত ব্যবহার করুন।"
+        ],
+        "en": [
+          "Uproot and burn infected clumps; viruses cannot be cured.",
+          "Take setts from a disease-free field.",
+          "If aphids are many, use an approved insecticide on the officer's advice.",
+          "Use a resistant variety."
+        ]
+      }
+    },
+    "sugarcane_red_rot": {
+      "name": {
+        "bn": "আখের লাল পচা রোগ (রেড রট)",
+        "en": "Sugarcane Red Rot"
+      },
+      "cause": {
+        "bn": "ছত্রাকের কারণে হয়। পাতার মাঝের শিরায় লালচে দাগ পড়ে, আখ চিরলে ভেতরে লাল রং ও টক গন্ধ থাকে। গাছ শুকিয়ে যেতে পারে।",
+        "en": "Caused by a fungus. Reddish marks along the leaf midrib; inside a split cane it is red with a sour smell. Plants can dry up."
+      },
+      "tips": {
+        "bn": [
+          "আক্রান্ত ঝাড় তুলে দূরে পুড়িয়ে ফেলুন।",
+          "শুধু রোগমুক্ত সেট লাগান; সেট শোধন কৃষি কর্মকর্তার পরামর্শে করুন।",
+          "জমিতে পানি জমতে দেবেন না, ফসলের পালা বদল করুন।",
+          "প্রতিরোধী জাত ব্যবহার করুন ও কৃষি অফিসারকে জানান।"
+        ],
+        "en": [
+          "Uproot infected clumps and burn them away from the field.",
+          "Plant only disease-free setts; treat setts on the officer's advice.",
+          "Avoid waterlogging and rotate crops.",
+          "Use resistant varieties and inform the agriculture officer."
+        ]
+      }
+    },
+    "sugarcane_rust": {
+      "name": {
+        "bn": "আখের মরিচা রোগ (রাস্ট)",
+        "en": "Sugarcane Rust"
+      },
+      "cause": {
+        "bn": "ছত্রাকের কারণে হয়। পাতার নিচে কমলা-বাদামি ছোট ফোসকা পড়ে, পরে পাতা শুকিয়ে যায়। আর্দ্র আবহাওয়ায় বাড়ে।",
+        "en": "Caused by a fungus. Small orange-brown pustules under the leaf; leaves later dry. Grows in humid weather."
+      },
+      "tips": {
+        "bn": [
+          "বেশি আক্রান্ত পাতা কেটে সরিয়ে ফেলুন।",
+          "সুষম সার দিন, বেশি নাইট্রোজেন সার নয়।",
+          "ঘন করে লাগাবেন না, বাতাস চলাচল রাখুন।",
+          "ছড়ালে কৃষি কর্মকর্তার পরামর্শে ছত্রাকনাশক ব্যবহার করুন।"
+        ],
+        "en": [
+          "Cut off and remove heavily affected leaves.",
+          "Use balanced fertilizer; avoid too much nitrogen.",
+          "Do not plant too densely; keep air moving.",
+          "If it spreads, use a fungicide on the officer's advice."
+        ]
+      }
+    },
+    "sugarcane_yellow_leaf": {
+      "name": {
+        "bn": "আখের পাতা হলুদ রোগ (ইয়েলো লিফ)",
+        "en": "Sugarcane Yellow Leaf"
+      },
+      "cause": {
+        "bn": "ভাইরাসের কারণে হয়, জাব পোকা ছড়ায়। পাতার মাঝের শিরা হলুদ হয়, ডগার দিক থেকে পাতা শুকাতে থাকে, ফলন কমে।",
+        "en": "Caused by a virus spread by aphids. The midrib turns yellow and leaves dry from the tip; yield falls."
+      },
+      "tips": {
+        "bn": [
+          "রোগমুক্ত সেট ব্যবহার করুন।",
+          "আক্রান্ত ঝাড় তুলে ফেলুন।",
+          "জাব পোকা নজরে রাখুন, বেশি হলে কৃষি কর্মকর্তাকে জানান।",
+          "সুষম সার ও সময়মতো সেচ দিন।"
+        ],
+        "en": [
+          "Use disease-free setts.",
+          "Remove infected clumps.",
+          "Watch for aphids; tell the agriculture officer if they are many.",
+          "Give balanced fertilizer and irrigate on time."
+        ]
+      }
+    }
+  }
+}

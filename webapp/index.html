@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1b7f4b">
+  <title>কৃষি ডাক্তার | Krishi Daktar</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="splash"><img src="icons/icon-192.png" alt=""><h1 data-i18n="title"></h1><p data-i18n="splashTag"></p></div>
+
+  <div id="app">
+    <header class="top">
+      <div class="brand"><img src="icons/icon-192.png" alt=""><span data-i18n="title"></span></div>
+      <span id="netDot" class="netdot" title="online"></span>
+      <button id="langBtn" type="button" aria-label="Language">English</button>
+    </header>
+
+    <main>
+      <!-- HOME -->
+      <section id="vHome" class="view">
+        <div class="hero">
+          <div class="hero-top"><div><p class="hello" data-i18n="hello"></p><p class="place" id="wPlace">…</p></div><div class="wicon" id="wIcon">⛅</div></div>
+          <div class="wnow"><span id="wTemp">--</span><small>°C</small></div>
+          <p class="wmeta" id="wMeta" data-i18n="weatherLoading"></p>
+        </div>
+        <div class="grid4">
+          <button class="qa" data-go="vScan"><span>📷</span><b data-i18n="qaScan"></b></button>
+          <button class="qa" data-go="vCrops"><span>🌱</span><b data-i18n="qaCrops"></b></button>
+          <button class="qa" data-go="vChat"><span>💬</span><b data-i18n="qaChat"></b></button>
+          <button class="qa" data-go="vFarm"><span>🧑‍🌾</span><b data-i18n="qaFarm"></b></button>
+        </div>
+        <h3 class="sec" data-i18n="riskTitle"></h3>
+        <div id="riskBox" class="card"></div>
+        <h3 class="sec" data-i18n="yourCrops"></h3>
+        <div class="hscroll" id="cropCards"></div>
+        <h3 class="sec" data-i18n="recentScans"></h3>
+        <div id="recentBox"></div>
+        <div class="card tip"><b data-i18n="tipTitle"></b><p id="dayTip"></p></div>
+      </section>
+
+      <!-- SCAN -->
+      <section id="vScan" class="view" hidden>
+        <h2 class="vt" data-i18n="scanTitleMain"></h2>
+        <p class="sub" data-i18n="subtitle"></p>
+        <div class="actions">
+          <label class="btn primary" id="camLabel">📷 <span data-i18n="camera"></span>
+            <input id="camInput" type="file" accept="image/*" capture="environment" hidden></label>
+          <label class="btn secondary">🖼️ <span data-i18n="gallery"></span>
+            <input id="galInput" type="file" accept="image/*" hidden></label>
+        </div>
+        <p class="tipline" data-i18n="photoTip"></p>
+        <p id="status" class="status" role="status"></p>
+        <div id="previewWrap" class="previewwrap" hidden><img id="preview" alt=""><div id="scanline" class="scanline" hidden></div></div>
+        <div id="quality" class="chips"></div>
+        <section id="result" hidden></section>
+      </section>
+
+      <!-- CROPS -->
+      <section id="vCrops" class="view" hidden>
+        <h2 class="vt" data-i18n="qaCrops"></h2>
+        <div class="tabs" id="cropTabs"></div>
+        <div id="cropBody"></div>
+      </section>
+
+      <!-- CHAT -->
+      <section id="vChat" class="view" hidden>
+        <h2 class="vt"><span data-i18n="chatHead"></span> <small id="chatState" class="pill"></small></h2>
+        <div id="chatOffline" class="card warnbox" hidden data-i18n="chatNeedNet"></div>
+        <div id="chatCtx" class="ctxline"></div>
+        <div id="chatLog" class="chatlog"></div>
+        <div class="chips">
+          <button type="button" class="chip" data-i18n="q1" data-q="q1"></button>
+          <button type="button" class="chip" data-i18n="q2" data-q="q2"></button>
+          <button type="button" class="chip" data-i18n="q3" data-q="q3"></button>
+          <button type="button" class="chip" data-i18n="q4" data-q="q4"></button>
+        </div>
+        <form id="chatForm" class="chatform">
+          <input id="chatInput" maxlength="300" autocomplete="off">
+          <button type="button" id="micBtn" class="mic" hidden aria-label="mic">🎤</button>
+          <button type="submit" class="send" data-i18n="send"></button>
+        </form>
+        <p class="note" data-i18n="chatNote"></p>
+      </section>
+
+      <!-- MY FARM -->
+      <section id="vFarm" class="view" hidden>
+        <h2 class="vt" data-i18n="qaFarm"></h2>
+        <div class="card stats" id="farmStats"></div>
+        <h3 class="sec" data-i18n="historyTitle"></h3>
+        <div id="historyBox"></div>
+        <button id="clearHist" class="linkbtn" type="button" data-i18n="clearHist"></button>
+        <h3 class="sec" data-i18n="settings"></h3>
+        <div class="card setlist">
+          <label class="aiswitch" id="aiRow" hidden><input type="checkbox" id="aiToggle" checked> <span data-i18n="aiLabel"></span></label>
+          <label class="aiswitch"><input type="checkbox" id="voiceToggle" checked> <span data-i18n="voiceLabel"></span></label>
+          <button id="installBtn" class="btn secondary" type="button" hidden data-i18n="installApp"></button>
+        </div>
+        <p class="disclaimer" id="disclaimer"></p>
+      </section>
+    </main>
+
+    <nav class="tabbar">
+      <button data-go="vHome" class="on"><span>🏠</span><small data-i18n="navHome"></small></button>
+      <button data-go="vCrops"><span>🌱</span><small data-i18n="navCrops"></small></button>
+      <button data-go="vScan" class="fab"><span>📷</span></button>
+      <button data-go="vChat"><span>💬</span><small data-i18n="navChat"></small></button>
+      <button data-go="vFarm"><span>🧑‍🌾</span><small data-i18n="navFarm"></small></button>
+    </nav>
+  </div>
+
+  <!-- bottom sheet: disease detail / history detail -->
+  <div id="sheet" class="modal sheetbg" hidden><div class="sheetcard"><button id="sheetClose" class="x" type="button" aria-label="close">✕</button><div id="sheetBody"></div></div></div>
+
+  <!-- Phone page: opened by scanning the QR code, takes a photo and sends it to the computer -->
+  <section id="sender" hidden>
+    <main>
+      <h2 data-i18n="sendTitle"></h2>
+      <p data-i18n="sendText"></p>
+      <label class="btn primary">📷 <span data-i18n="camera"></span>
+        <input id="sendInput" type="file" accept="image/*" capture="environment" hidden>
+      </label>
+      <p id="sendStatus" class="status" role="status"></p>
+    </main>
+  </section>
+
+  <!-- Computer: QR code popup -->
+  <div id="qrModal" class="modal" hidden>
+    <div class="modal-card">
+      <h2 data-i18n="scanTitle"></h2>
+      <p data-i18n="scanText"></p>
+      <div id="qrBox" class="qrbox"></div>
+      <p id="qrStatus" class="status" role="status"></p>
+      <button id="qrFile" type="button" class="btn secondary" data-i18n="useFile"></button>
+      <button id="qrClose" type="button" class="linkbtn" data-i18n="close"></button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@4.22.0/dist/tf.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode-generator@1.4.4/qrcode.js"></script>
+  <script src="i18n.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

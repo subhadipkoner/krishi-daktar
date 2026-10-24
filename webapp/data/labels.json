@@ -1,0 +1,107 @@
+[
+  {
+    "index": 0,
+    "id": "potato_early_blight",
+    "crop": "potato"
+  },
+  {
+    "index": 1,
+    "id": "potato_healthy",
+    "crop": "potato"
+  },
+  {
+    "index": 2,
+    "id": "potato_late_blight",
+    "crop": "potato"
+  },
+  {
+    "index": 3,
+    "id": "rice_bacterial_leaf_blight",
+    "crop": "rice"
+  },
+  {
+    "index": 4,
+    "id": "rice_brown_spot",
+    "crop": "rice"
+  },
+  {
+    "index": 5,
+    "id": "rice_leaf_smut",
+    "crop": "rice"
+  },
+  {
+    "index": 6,
+    "id": "sugarcane_healthy",
+    "crop": "sugarcane"
+  },
+  {
+    "index": 7,
+    "id": "sugarcane_mosaic",
+    "crop": "sugarcane"
+  },
+  {
+    "index": 8,
+    "id": "sugarcane_red_rot",
+    "crop": "sugarcane"
+  },
+  {
+    "index": 9,
+    "id": "sugarcane_rust",
+    "crop": "sugarcane"
+  },
+  {
+    "index": 10,
+    "id": "sugarcane_yellow_leaf",
+    "crop": "sugarcane"
+  },
+  {
+    "index": 11,
+    "id": "tomato_bacterial_spot",
+    "crop": "tomato"
+  },
+  {
+    "index": 12,
+    "id": "tomato_early_blight",
+    "crop": "tomato"
+  },
+  {
+    "index": 13,
+    "id": "tomato_healthy",
+    "crop": "tomato"
+  },
+  {
+    "index": 14,
+    "id": "tomato_late_blight",
+    "crop": "tomato"
+  },
+  {
+    "index": 15,
+    "id": "tomato_leaf_mold",
+    "crop": "tomato"
+  },
+  {
+    "index": 16,
+    "id": "tomato_mosaic_virus",
+    "crop": "tomato"
+  },
+  {
+    "index": 17,
+    "id": "tomato_septoria_leaf_spot",
+    "crop": "tomato"
+  },
+  {
+    "index": 18,
+    "id": "tomato_spider_mites",
+    "crop": "tomato"
+  },
+  {
+    "index": 19,
+    "id": "tomato_target_spot",
+    "crop": "tomato"
+  },
+  {
+    "index": 20,
+    "id": "tomato_yellow_leaf_curl_virus",
+    "crop": "tomato"
+  }
+]

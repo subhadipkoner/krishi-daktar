@@ -1,0 +1,43 @@
+{
+  "overall_accuracy": 0.9508448540706606,
+  "top2_accuracy": 0.9851510496671787,
+  "accuracy_when_confidence_ge_70": 0.9715224534501643,
+  "fraction_confident": 0.9349718381976446,
+  "test_images": 1953,
+  "per_class_accuracy": {
+    "potato_early_blight": 1.0,
+    "potato_healthy": 1.0,
+    "potato_late_blight": 0.98,
+    "rice_bacterial_leaf_blight": 1.0,
+    "rice_brown_spot": 0.8333333333333334,
+    "rice_leaf_smut": 0.5,
+    "tomato_bacterial_spot": 0.9444444444444444,
+    "tomato_early_blight": 0.78,
+    "tomato_healthy": 0.9944444444444445,
+    "tomato_late_blight": 0.9111111111111111,
+    "tomato_leaf_mold": 0.9791666666666666,
+    "tomato_mosaic_virus": 0.9824561403508771,
+    "tomato_septoria_leaf_spot": 0.9666666666666667,
+    "tomato_spider_mites": 0.9666666666666667,
+    "tomato_target_spot": 0.9444444444444444,
+    "tomato_yellow_leaf_curl_virus": 0.9833333333333333
+  },
+  "per_class_test_count": {
+    "potato_early_blight": 150,
+    "potato_healthy": 24,
+    "potato_late_blight": 150,
+    "rice_bacterial_leaf_blight": 6,
+    "rice_brown_spot": 6,
+    "rice_leaf_smut": 6,
+    "tomato_bacterial_spot": 180,
+    "tomato_early_blight": 150,
+    "tomato_healthy": 180,
+    "tomato_late_blight": 180,
+    "tomato_leaf_mold": 144,
+    "tomato_mosaic_virus": 57,
+    "tomato_septoria_leaf_spot": 180,
+    "tomato_spider_mites": 180,
+    "tomato_target_spot": 180,
+    "tomato_yellow_leaf_curl_virus": 180
+  }
+}

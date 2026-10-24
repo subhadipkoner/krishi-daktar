@@ -1,0 +1,29 @@
+# Local Netlify folder
+.netlify
+
+# Datasets (too large for git; see README for sources)
+PlantVillage/
+rice_leaf_diseases/
+new_data/
+dataset_prepared/
+sugarcane_prepared/
+sugar_part_*
+
+# Archives and build bundles
+*.zip
+
+# Training outputs kept outside the app
+model_out/
+model_backup_v1/
+
+# Scratch / temp
+deck_tmp/
+/netlify/
+*_old_backup.*
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+__pycache__/
+*.pyc
